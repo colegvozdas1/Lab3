@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+            <script src="https://d3js.org/d3.v7.min.js"></script>
+            <script defer src="scatter.js"></script>
+            <script defer src='bargraph.js'></script>
+            <link rel="stylesheet" href="style.css">
+
+
+            <div class='container'>
+                <h1>Population in European Countries</h1>
+                <div class='city-count'></div>
+                <div class='population-plot'></div>
+                <svg class ='population-plot'>
+                    <title class='labels'></title>
+                </svg>
+
+            </div>
+
+
+            <h2>World's Tallest Buildings</h2>
+            <div style='float:left' class='column' id='num1'></div>
+            <div style = 'float:left' class='container'>
+                <div class='row'>
+                    <div class="column" style= 'float:left'>
+                        <img class="image"/>
+                    </div>
+                    <div class="column" style='float:left'>
+                        <h4 class="building-name"></h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Height</td>
+                                    <td><span class="height"></span> ft</td>
+                                </tr>
+                                <tr>
+                                    <td>City</td>
+                                    <td><span class="city"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Country</td>
+                                    <td><span class="country"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Floors</td>
+                                    <td><span class="floors"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Completed</td>
+                                    <td><span class="completed"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </body>
+    </html>
